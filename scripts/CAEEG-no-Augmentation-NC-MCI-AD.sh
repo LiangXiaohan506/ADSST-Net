@@ -1,0 +1,183 @@
+########################################### EYE OPEN BEFOR no Augmentation ##########################################
+## EEGNet
+python \
+ -u run.py \
+ --seed 38 \
+ --task_name supervised \
+ --is_training 0 \
+ --model EEGNet \
+ --data CAEEG \
+ --root_path ./dataset/CAEEG3_1.0s_0.0_EO_Aug/ \
+ --selected_classes 0,1,2 \
+ --project_name CAEEG3_1s_00_EO_Aug-EEGNet-NCvsMCIvsAD-noAugmentation \
+ --dropout 0.1 \
+ --group_size 16 --batch_size 256 \
+ --itr 5 \
+ --learning_rate 0.0001 \
+ --weight_decay 0.01 --label_smoothing 0.05 \
+ --train_epochs 200 --patience 15 \
+ --optimizer AdamW \
+ --scheduler CosineAnnealingLR \
+ --swa \
+ --visualization_training Experimental
+
+## Conformer
+python \
+ -u run.py \
+ --seed 38 \
+ --task_name supervised \
+ --is_training 0 \
+ --model Conformer \
+ --data CAEEG \
+ --root_path ./dataset/CAEEG3_1.0s_0.0_EO_Aug/ \
+ --selected_classes 0,1,2 \
+ --project_name CAEEG3_1s_00_EO_Aug-Conformer-NCvsMCIvsAD-noAugmentation \
+ --d_model 128 --d_ff 256 --e_layers 12 --n_heads 8 \
+ --group_size 16 --batch_size 256 \
+ --itr 5 \
+ --learning_rate 0.0001 \
+ --weight_decay 0.01 --label_smoothing 0.05 \
+ --train_epochs 200 --patience 15 \
+ --optimizer AdamW \
+ --scheduler CosineAnnealingLR \
+ --swa \
+ --visualization_training Experimental
+
+## ADformer
+python \
+ -u run.py \
+ --seed 38 \
+ --task_name supervised \
+ --is_training 0 \
+ --model ADformer \
+ --data CAEEG \
+ --root_path ./dataset/CAEEG3_1.0s_0.0_EO_Aug/ \
+ --augmentations flip,frequency,jitter,mask,channel,drop \
+ --selected_classes 0,1,2 \
+ --project_name CAEEG3_1s_00_EO_Aug-ADformer-NCvsMCIvsAD-noAugmentation \
+ --group_size 16 \
+ --patch_len_list 8,8,8,16,16,16 \
+ --up_dim_list 76,76,76 \
+ --e_layers 6 --n_heads 8 --d_model 128 --d_ff 256 \
+ --group_size 16 --batch_size 256 \
+ --itr 5 \
+ --learning_rate 0.0001 \
+ --weight_decay 0.01 --label_smoothing 0.05 \
+ --train_epochs 200 --patience 15 \
+ --optimizer AdamW \
+ --scheduler CosineAnnealingLR \
+ --swa \
+ --visualization_training Experimental
+
+## Medformer
+python \
+ -u run.py \
+ --seed 38 \
+ --task_name supervised \
+ --is_training 0 \
+ --model Medformer \
+ --data CAEEG \
+ --root_path ./dataset/CAEEG3_1.0s_0.0_EO_Aug/ \
+ --augmentations flip,frequency,jitter,mask,channel,drop \
+ --selected_classes 0,1,2 \
+ --project_name CAEEG3_1s_00_EO_Aug-Medformer-NCvsMCIvsAD-noAugmentation \
+ --e_layers 6 --d_model 128 --d_ff 256 \
+ --patch_len_list 2,4,8,8,16,16,16,16,32,32,32,32,32,32,32,32 \
+ --group_size 16 --batch_size 256 \
+ --itr 5 \
+ --learning_rate 0.0001 \
+ --weight_decay 0.01 --label_smoothing 0.05 \
+ --train_epochs 200 --patience 15 \
+ --optimizer AdamW \
+ --scheduler CosineAnnealingLR \
+ --swa \
+ --visualization_training Experimental
+
+## TSLANet
+python \
+ -u run.py \
+ --seed 38 \
+ --task_name supervised \
+ --is_training 0 \
+ --model TSLANet \
+ --data CAEEG \
+ --root_path ./dataset/CAEEG3_1.0s_0.0_EO_Aug/ \
+ --selected_classes 0,1,2 \
+ --project_name CAEEG3_1s_00_EO_Aug-TSLANet-NCvsMCIvsAD-noAugmentation \
+ --embedding_dim 128 --e_layers 2 \
+ --group_size 16 --batch_size 256 \
+ --itr 5 \
+ --learning_rate 0.001 \
+ --weight_decay 0.01 --label_smoothing 0.05 \
+ --train_epochs 200 --patience 15 \
+ --optimizer AdamW \
+ --scheduler CosineAnnealingLR \
+ --swa \
+ --visualization_training Experimental
+
+## MedGNN
+python \
+ -u run.py \
+ --seed 38 \
+ --task_name supervised \
+ --is_training 0 \
+ --model MedGNN \
+ --data CAEEG \
+ --root_path ./dataset/CAEEG3_1.0s_0.0_EO_Aug/ \
+ --augmentations flip,frequency,jitter,mask,channel,drop \
+ --selected_classes 0,1,2 \
+ --project_name CAEEG3_1s_00_EO_Aug-MedGNN-NCvsMCIvsAD-noAugmentation \
+ --e_layers 12 --n_heads 8 --d_model 128 --d_ff 256 \
+ --group_size 16 --batch_size 256 \
+ --itr 5 \
+ --learning_rate 0.0001 \
+ --weight_decay 0.01 --label_smoothing 0.05 \
+ --train_epochs 200 --patience 15 \
+ --optimizer AdamW \
+ --scheduler CosineAnnealingLR \
+ --swa \
+ --visualization_training Experimental
+
+## STCGRU
+python \
+ -u run.py \
+ --seed 38 \
+ --task_name supervised \
+ --is_training 0 \
+ --model STCGRU \
+ --data CAEEG \
+ --root_path ./dataset/CAEEG3_1.0s_0.0_EO_Aug/ \
+ --selected_classes 0,1,2 \
+ --project_name CAEEG3_1s_00_EO_Aug-STCGRU-NCvsMCIvsAD-noAugmentation \
+ --dropout 0.1 \
+ --group_size 16 --batch_size 256 \
+ --itr 5 \
+ --learning_rate 0.0001 \
+ --weight_decay 0.01 --label_smoothing 0.05 \
+ --train_epochs 200 --patience 15 \
+ --optimizer AdamW \
+ --scheduler CosineAnnealingLR \
+ --swa \
+ --visualization_training Experimental
+
+## CodimNet
+python \
+ -u run.py \
+ --seed 38 \
+ --task_name supervised \
+ --is_training 0 \
+ --model CodimNet \
+ --data CAEEG \
+ --root_path ./dataset/CAEEG3_1.0s_0.0_EO_Aug/ \
+ --selected_classes 0,1,2 \
+ --project_name CAEEG3_1s_00_EO_Aug-CodimNet-NCvsMCIvsAD-noAugmentation \
+ --dropout 0.1 \
+ --group_size 16 --batch_size 256 \
+ --itr 5 \
+ --learning_rate 0.0001 \
+ --weight_decay 0.01 --label_smoothing 0.05 \
+ --train_epochs 200 --patience 15 \
+ --optimizer AdamW \
+ --scheduler CosineAnnealingLR \
+ --swa \
+ --visualization_training Experimental

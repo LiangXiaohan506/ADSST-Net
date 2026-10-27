@@ -1,0 +1,32 @@
+# Local datasets and experiment artifacts
+/dataset/
+/checkpoints/
+/results/
+/wandb/
+/visdom/
+*.pt
+*.pth
+*.ckpt
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+requirements-runtime.txt
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Office temporary lock files
+~$*

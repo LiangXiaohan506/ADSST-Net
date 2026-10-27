@@ -1,0 +1,33 @@
+########################################## EYE OPEN BEFOR Augmentation one Frequency Band Mixing delta/alpha/gamma no Random Crop ##########################################
+# ADSSTNet
+python \
+ -u run.py \
+ --seed 38 \
+ --task_name supervised \
+ --is_training 0 \
+ --model ADSSTNet \
+ --data CAEEG --root_path ./dataset/CAEEG3_1.0s_0.0_EO_Aug/ \
+ --use_augmentation --augmentations FreBandMix \
+ --selected_classes 0,1 \
+ --project_name CAEEG3_1s_00_EO_Aug-ADSSTNet-NCvsMCI-oneFreBanDAGnoRanCrop \
+ --downsample_min_len 4 \
+ --d_model 20 \
+ --expand 2 --d_state 16 --dt_rank 2 --d_conv_in 4 --d_conv 4 --d_conv_out 4 --bimamba --space \
+ --dim_UVA 4 --topk_A0 4 \
+ --embedding_dim 32 \
+ --sample_adapt_A0 --sample_adapt_Fre \
+ --projection_dim 128 \
+ --group_size 16 --batch_size 256 \
+ --itr 5 \
+ --learning_rate 0.001 \
+ --weight_decay 0.01 --label_smoothing 0.05 \
+ --dropout_head 0.7 \
+ --lambda_instance 0.5 --lambda_subject 0.5 --supcon_alpha 0.2 --layer_exp_base 0.8 \
+ --lambda_regularization 1.0 \
+ --train_epochs 200 --patience 15 \
+ --warmup_epochs 5 \
+ --subject_trim_ratio 0.2 \
+ --optimizer AdamW \
+ --scheduler CosineAnnealingLR \
+ --swa \
+ --visualization_training Experimental
