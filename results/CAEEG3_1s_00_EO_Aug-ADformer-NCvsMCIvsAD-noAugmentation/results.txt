@@ -1,0 +1,420 @@
+================================================================================
+实验配置: CAEEG3_1s_00_EO_Aug-ADformer-NCvsMCIvsAD-noAugmentation
+================================================================================
+
+ITR 1 结果:
+	Sample-level results:
+		Accuracy:	47.12%
+		Precision:	38.09%
+		Recall:	37.19%
+		F1:	36.35%
+		k-score:	9.46%
+		AUROC:	57.37%
+		AUPRC:	38.20%
+		Confusion Matrix (Count):
+			923	1082	155
+			490	981	145
+			24	270	26
+		Confusion Matrix (Percentage):
+			42.73%	50.09%	7.18%
+			30.32%	60.71%	8.97%
+			7.50%	84.38%	8.12%
+	Subject-level results:
+		Accuracy:	56.52%
+		Precision:	40.56%
+		Recall:	42.59%
+		F1:	39.44%
+		k-score:	22.82%
+		AUROC:	58.74%
+		AUPRC:	39.09%
+		Confusion Matrix (Count):
+			6	6	0
+			2	7	0
+			0	2	0
+		Confusion Matrix (Percentage):
+			50.00%	50.00%	0.00%
+			22.22%	77.78%	0.00%
+			0.00%	100.00%	0.00%
+
+ITR 2 结果:
+	Sample-level results:
+		Accuracy:	56.23%
+		Precision:	47.59%
+		Recall:	47.84%
+		F1:	47.29%
+		k-score:	26.18%
+		AUROC:	69.90%
+		AUPRC:	48.76%
+		Confusion Matrix (Count):
+			1273	694	129
+			403	934	279
+			55	233	96
+		Confusion Matrix (Percentage):
+			60.73%	33.11%	6.15%
+			24.94%	57.80%	17.26%
+			14.32%	60.68%	25.00%
+	Subject-level results:
+		Accuracy:	69.57%
+		Precision:	60.61%
+		Recall:	63.89%
+		F1:	61.64%
+		k-score:	48.06%
+		AUROC:	73.76%
+		AUPRC:	50.97%
+		Confusion Matrix (Count):
+			9	2	1
+			2	6	1
+			0	1	1
+		Confusion Matrix (Percentage):
+			75.00%	16.67%	8.33%
+			22.22%	66.67%	11.11%
+			0.00%	50.00%	50.00%
+
+ITR 3 结果:
+	Sample-level results:
+		Accuracy:	47.14%
+		Precision:	37.09%
+		Recall:	36.98%
+		F1:	36.36%
+		k-score:	10.07%
+		AUROC:	53.95%
+		AUPRC:	35.70%
+		Confusion Matrix (Count):
+			1022	990	196
+			456	884	196
+			186	141	25
+		Confusion Matrix (Percentage):
+			46.29%	44.84%	8.88%
+			29.69%	57.55%	12.76%
+			52.84%	40.06%	7.10%
+	Subject-level results:
+		Accuracy:	65.22%
+		Precision:	47.88%
+		Recall:	48.15%
+		F1:	47.58%
+		k-score:	39.87%
+		AUROC:	64.69%
+		AUPRC:	45.87%
+		Confusion Matrix (Count):
+			8	3	1
+			1	7	1
+			1	1	0
+		Confusion Matrix (Percentage):
+			66.67%	25.00%	8.33%
+			11.11%	77.78%	11.11%
+			50.00%	50.00%	0.00%
+
+ITR 4 结果:
+	Sample-level results:
+		Accuracy:	52.41%
+		Precision:	41.87%
+		Recall:	42.22%
+		F1:	41.62%
+		k-score:	18.63%
+		AUROC:	63.70%
+		AUPRC:	42.58%
+		Confusion Matrix (Count):
+			1536	545	159
+			668	671	389
+			99	211	74
+		Confusion Matrix (Percentage):
+			68.57%	24.33%	7.10%
+			38.66%	38.83%	22.51%
+			25.78%	54.95%	19.27%
+	Subject-level results:
+		Accuracy:	60.87%
+		Precision:	39.58%
+		Recall:	41.67%
+		F1:	39.52%
+		k-score:	26.33%
+		AUROC:	58.89%
+		AUPRC:	39.61%
+		Confusion Matrix (Count):
+			11	1	0
+			5	3	1
+			0	2	0
+		Confusion Matrix (Percentage):
+			91.67%	8.33%	0.00%
+			55.56%	33.33%	11.11%
+			0.00%	100.00%	0.00%
+
+ITR 5 结果:
+	Sample-level results:
+		Accuracy:	50.41%
+		Precision:	40.97%
+		Recall:	39.65%
+		F1:	38.47%
+		k-score:	14.79%
+		AUROC:	58.14%
+		AUPRC:	41.01%
+		Confusion Matrix (Count):
+			990	1148	102
+			423	1179	126
+			29	330	25
+		Confusion Matrix (Percentage):
+			44.20%	51.25%	4.55%
+			24.48%	68.23%	7.29%
+			7.55%	85.94%	6.51%
+	Subject-level results:
+		Accuracy:	52.17%
+		Precision:	48.33%
+		Recall:	41.67%
+		F1:	34.02%
+		k-score:	19.17%
+		AUROC:	57.74%
+		AUPRC:	39.28%
+		Confusion Matrix (Count):
+			3	9	0
+			0	9	0
+			0	2	0
+		Confusion Matrix (Percentage):
+			25.00%	75.00%	0.00%
+			0.00%	100.00%	0.00%
+			0.00%	100.00%	0.00%
+
+================================================================================
+所有ITR的平均结果 (Mean ± Std):
+================================================================================
+
+Sample-level results:
+Test results --- Accuracy: 50.66 ± 3.44%, Precision: 41.12 ± 3.68%, Recall: 40.78 ± 4.02%, F1: 40.02 ± 4.12%, k-score: 15.83 ± 6.16%, AUROC: 60.61 ± 5.60%, AUPRC: 41.25 ± 4.43%
+	Confusion Matrix (Mean Count):
+		1148.80	891.80	148.20
+		488.00	929.80	227.00
+		78.60	237.00	49.20
+	Confusion Matrix (Std Count):
+		226.99	232.75	31.47
+		94.74	163.59	96.78
+		59.92	62.68	30.05
+	Confusion Matrix (Mean Percentage):
+		52.49%	40.74%	6.77%
+		29.67%	56.53%	13.80%
+		21.55%	64.97%	13.49%
+
+Subject-level results after majority voting:
+Test results --- Accuracy: 60.87 ± 6.15%, Precision: 47.39 ± 7.53%, Recall: 47.59 ± 8.50%, F1: 44.44 ± 9.63%, k-score: 31.25 ± 10.94%, AUROC: 62.76 ± 6.02%, AUPRC: 42.96 ± 4.74%
+	Confusion Matrix (Mean Count):
+		7.40	4.20	0.40
+		2.00	6.40	0.60
+		0.20	1.60	0.20
+	Confusion Matrix (Std Count):
+		2.73	2.93	0.49
+		1.67	1.96	0.49
+		0.40	0.49	0.40
+	Confusion Matrix (Mean Percentage):
+		61.67%	35.00%	3.33%
+		22.22%	71.11%	6.67%
+		10.00%	80.00%	10.00%
+
+================================================================================
+
+================================================================================
+实验配置: CAEEG3_1s_00_EO_Aug-ADformer-NCvsMCIvsAD-noAugmentation
+================================================================================
+
+ITR 1 结果:
+	Sample-level results:
+		Accuracy:	47.12%
+		Precision:	38.09%
+		Recall:	37.19%
+		F1:	36.35%
+		k-score:	9.46%
+		AUROC:	57.37%
+		AUPRC:	38.20%
+		Confusion Matrix (Count):
+			923	1082	155
+			490	981	145
+			24	270	26
+		Confusion Matrix (Percentage):
+			42.73%	50.09%	7.18%
+			30.32%	60.71%	8.97%
+			7.50%	84.38%	8.12%
+	Subject-level results:
+		Accuracy:	56.52%
+		Precision:	40.56%
+		Recall:	42.59%
+		F1:	39.44%
+		k-score:	22.82%
+		AUROC:	58.74%
+		AUPRC:	39.09%
+		Confusion Matrix (Count):
+			6	6	0
+			2	7	0
+			0	2	0
+		Confusion Matrix (Percentage):
+			50.00%	50.00%	0.00%
+			22.22%	77.78%	0.00%
+			0.00%	100.00%	0.00%
+
+ITR 2 结果:
+	Sample-level results:
+		Accuracy:	56.23%
+		Precision:	47.59%
+		Recall:	47.84%
+		F1:	47.29%
+		k-score:	26.18%
+		AUROC:	69.90%
+		AUPRC:	48.76%
+		Confusion Matrix (Count):
+			1273	694	129
+			403	934	279
+			55	233	96
+		Confusion Matrix (Percentage):
+			60.73%	33.11%	6.15%
+			24.94%	57.80%	17.26%
+			14.32%	60.68%	25.00%
+	Subject-level results:
+		Accuracy:	69.57%
+		Precision:	60.61%
+		Recall:	63.89%
+		F1:	61.64%
+		k-score:	48.06%
+		AUROC:	73.76%
+		AUPRC:	50.97%
+		Confusion Matrix (Count):
+			9	2	1
+			2	6	1
+			0	1	1
+		Confusion Matrix (Percentage):
+			75.00%	16.67%	8.33%
+			22.22%	66.67%	11.11%
+			0.00%	50.00%	50.00%
+
+ITR 3 结果:
+	Sample-level results:
+		Accuracy:	47.14%
+		Precision:	37.09%
+		Recall:	36.98%
+		F1:	36.36%
+		k-score:	10.07%
+		AUROC:	53.95%
+		AUPRC:	35.70%
+		Confusion Matrix (Count):
+			1022	990	196
+			456	884	196
+			186	141	25
+		Confusion Matrix (Percentage):
+			46.29%	44.84%	8.88%
+			29.69%	57.55%	12.76%
+			52.84%	40.06%	7.10%
+	Subject-level results:
+		Accuracy:	65.22%
+		Precision:	47.88%
+		Recall:	48.15%
+		F1:	47.58%
+		k-score:	39.87%
+		AUROC:	64.69%
+		AUPRC:	45.87%
+		Confusion Matrix (Count):
+			8	3	1
+			1	7	1
+			1	1	0
+		Confusion Matrix (Percentage):
+			66.67%	25.00%	8.33%
+			11.11%	77.78%	11.11%
+			50.00%	50.00%	0.00%
+
+ITR 4 结果:
+	Sample-level results:
+		Accuracy:	52.41%
+		Precision:	41.87%
+		Recall:	42.22%
+		F1:	41.62%
+		k-score:	18.63%
+		AUROC:	63.70%
+		AUPRC:	42.58%
+		Confusion Matrix (Count):
+			1536	545	159
+			668	671	389
+			99	211	74
+		Confusion Matrix (Percentage):
+			68.57%	24.33%	7.10%
+			38.66%	38.83%	22.51%
+			25.78%	54.95%	19.27%
+	Subject-level results:
+		Accuracy:	60.87%
+		Precision:	39.58%
+		Recall:	41.67%
+		F1:	39.52%
+		k-score:	26.33%
+		AUROC:	58.89%
+		AUPRC:	39.61%
+		Confusion Matrix (Count):
+			11	1	0
+			5	3	1
+			0	2	0
+		Confusion Matrix (Percentage):
+			91.67%	8.33%	0.00%
+			55.56%	33.33%	11.11%
+			0.00%	100.00%	0.00%
+
+ITR 5 结果:
+	Sample-level results:
+		Accuracy:	50.41%
+		Precision:	40.97%
+		Recall:	39.65%
+		F1:	38.47%
+		k-score:	14.79%
+		AUROC:	58.14%
+		AUPRC:	41.01%
+		Confusion Matrix (Count):
+			990	1148	102
+			423	1179	126
+			29	330	25
+		Confusion Matrix (Percentage):
+			44.20%	51.25%	4.55%
+			24.48%	68.23%	7.29%
+			7.55%	85.94%	6.51%
+	Subject-level results:
+		Accuracy:	52.17%
+		Precision:	48.33%
+		Recall:	41.67%
+		F1:	34.02%
+		k-score:	19.17%
+		AUROC:	57.74%
+		AUPRC:	39.28%
+		Confusion Matrix (Count):
+			3	9	0
+			0	9	0
+			0	2	0
+		Confusion Matrix (Percentage):
+			25.00%	75.00%	0.00%
+			0.00%	100.00%	0.00%
+			0.00%	100.00%	0.00%
+
+================================================================================
+所有ITR的平均结果 (Mean ± Std):
+================================================================================
+
+Sample-level results:
+Test results --- Accuracy: 50.66 ± 3.44%, Precision: 41.12 ± 3.68%, Recall: 40.78 ± 4.02%, F1: 40.02 ± 4.12%, k-score: 15.83 ± 6.16%, AUROC: 60.61 ± 5.60%, AUPRC: 41.25 ± 4.43%
+	Confusion Matrix (Mean Count):
+		1148.80	891.80	148.20
+		488.00	929.80	227.00
+		78.60	237.00	49.20
+	Confusion Matrix (Std Count):
+		226.99	232.75	31.47
+		94.74	163.59	96.78
+		59.92	62.68	30.05
+	Confusion Matrix (Mean Percentage):
+		52.49%	40.74%	6.77%
+		29.67%	56.53%	13.80%
+		21.55%	64.97%	13.49%
+
+Subject-level results after majority voting:
+Test results --- Accuracy: 60.87 ± 6.15%, Precision: 47.39 ± 7.53%, Recall: 47.59 ± 8.50%, F1: 44.44 ± 9.63%, k-score: 31.25 ± 10.94%, AUROC: 62.76 ± 6.02%, AUPRC: 42.96 ± 4.74%
+	Confusion Matrix (Mean Count):
+		7.40	4.20	0.40
+		2.00	6.40	0.60
+		0.20	1.60	0.20
+	Confusion Matrix (Std Count):
+		2.73	2.93	0.49
+		1.67	1.96	0.49
+		0.40	0.49	0.40
+	Confusion Matrix (Mean Percentage):
+		61.67%	35.00%	3.33%
+		22.22%	71.11%	6.67%
+		10.00%	80.00%	10.00%
+
+================================================================================
+

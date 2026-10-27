@@ -1,7 +1,8 @@
 # Local datasets and experiment artifacts
-/dataset/
-/checkpoints/
-/results/
+/dataset/*
+!/dataset/.gitkeep
+/checkpoints/*
+!/checkpoints/README.md
 /wandb/
 /visdom/
 *.pt

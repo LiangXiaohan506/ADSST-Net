@@ -1,0 +1,184 @@
+================================================================================
+实验配置: CAEEG3_1s_00_EO_Aug-STCGRU-NCvsMCI-noAugmentation
+================================================================================
+
+ITR 1 结果:
+	Sample-level results:
+		Accuracy:	51.06%
+		Precision:	51.47%
+		Recall:	51.47%
+		F1:	51.06%
+		k-score:	2.90%
+		AUROC:	51.76%
+		AUPRC:	51.82%
+		Confusion Matrix (Count):
+			930	1038
+			716	900
+		Confusion Matrix (Percentage):
+			47.26%	52.74%
+			44.31%	55.69%
+	Subject-level results:
+		Accuracy:	45.00%
+		Precision:	45.83%
+		Recall:	45.96%
+		F1:	44.86%
+		k-score:	-7.84%
+		AUROC:	45.96%
+		AUPRC:	43.15%
+		Confusion Matrix (Count):
+			4	7
+			4	5
+		Confusion Matrix (Percentage):
+			36.36%	63.64%
+			44.44%	55.56%
+
+ITR 2 结果:
+	Sample-level results:
+		Accuracy:	56.33%
+		Precision:	56.02%
+		Recall:	55.93%
+		F1:	55.90%
+		k-score:	11.92%
+		AUROC:	58.33%
+		AUPRC:	57.71%
+		Confusion Matrix (Count):
+			1187	717
+			848	832
+		Confusion Matrix (Percentage):
+			62.34%	37.66%
+			50.48%	49.52%
+	Subject-level results:
+		Accuracy:	70.00%
+		Precision:	73.33%
+		Recall:	67.68%
+		F1:	67.03%
+		k-score:	36.84%
+		AUROC:	67.68%
+		AUPRC:	60.56%
+		Confusion Matrix (Count):
+			10	1
+			5	4
+		Confusion Matrix (Percentage):
+			90.91%	9.09%
+			55.56%	44.44%
+
+ITR 3 结果:
+	Sample-level results:
+		Accuracy:	56.86%
+		Precision:	56.29%
+		Recall:	56.26%
+		F1:	56.27%
+		k-score:	12.55%
+		AUROC:	58.12%
+		AUPRC:	57.76%
+		Confusion Matrix (Count):
+			1228	756
+			790	810
+		Confusion Matrix (Percentage):
+			61.90%	38.10%
+			49.38%	50.62%
+	Subject-level results:
+		Accuracy:	65.00%
+		Precision:	64.58%
+		Recall:	64.14%
+		F1:	64.19%
+		k-score:	28.57%
+		AUROC:	64.14%
+		AUPRC:	54.72%
+		Confusion Matrix (Count):
+			8	3
+			4	5
+		Confusion Matrix (Percentage):
+			72.73%	27.27%
+			44.44%	55.56%
+
+ITR 4 结果:
+	Sample-level results:
+		Accuracy:	52.79%
+		Precision:	52.35%
+		Recall:	52.35%
+		F1:	52.35%
+		k-score:	4.69%
+		AUROC:	52.94%
+		AUPRC:	52.11%
+		Confusion Matrix (Count):
+			1198	914
+			899	829
+		Confusion Matrix (Percentage):
+			56.72%	43.28%
+			52.03%	47.97%
+	Subject-level results:
+		Accuracy:	65.00%
+		Precision:	65.48%
+		Recall:	63.13%
+		F1:	62.67%
+		k-score:	27.08%
+		AUROC:	63.13%
+		AUPRC:	54.63%
+		Confusion Matrix (Count):
+			9	2
+			5	4
+		Confusion Matrix (Percentage):
+			81.82%	18.18%
+			55.56%	44.44%
+
+ITR 5 结果:
+	Sample-level results:
+		Accuracy:	52.04%
+		Precision:	51.60%
+		Recall:	51.60%
+		F1:	51.59%
+		k-score:	3.20%
+		AUROC:	53.91%
+		AUPRC:	53.63%
+		Confusion Matrix (Count):
+			1104	880
+			839	761
+		Confusion Matrix (Percentage):
+			55.65%	44.35%
+			52.44%	47.56%
+	Subject-level results:
+		Accuracy:	65.00%
+		Precision:	65.48%
+		Recall:	63.13%
+		F1:	62.67%
+		k-score:	27.08%
+		AUROC:	63.13%
+		AUPRC:	54.63%
+		Confusion Matrix (Count):
+			9	2
+			5	4
+		Confusion Matrix (Percentage):
+			81.82%	18.18%
+			55.56%	44.44%
+
+================================================================================
+所有ITR的平均结果 (Mean ± Std):
+================================================================================
+
+Sample-level results:
+Test results --- Accuracy: 53.82 ± 2.34%, Precision: 53.54 ± 2.15%, Recall: 53.52 ± 2.12%, F1: 53.43 ± 2.21%, k-score: 7.05 ± 4.28%, AUROC: 55.01 ± 2.71%, AUPRC: 54.60 ± 2.63%
+	Confusion Matrix (Mean Count):
+		1129.40	861.00
+		818.40	826.40
+	Confusion Matrix (Std Count):
+		107.84	115.12
+		61.79	44.72
+	Confusion Matrix (Mean Percentage):
+		56.74%	43.26%
+		49.76%	50.24%
+
+Subject-level results after majority voting:
+Test results --- Accuracy: 62.00 ± 8.72%, Precision: 62.94 ± 9.12%, Recall: 60.81 ± 7.61%, F1: 60.28 ± 7.87%, k-score: 22.35 ± 15.53%, AUROC: 60.81 ± 7.61%, AUPRC: 53.54 ± 5.67%
+	Confusion Matrix (Mean Count):
+		8.00	3.00
+		4.60	4.40
+	Confusion Matrix (Std Count):
+		2.10	2.10
+		0.49	0.49
+	Confusion Matrix (Mean Percentage):
+		72.73%	27.27%
+		51.11%	48.89%
+
+================================================================================
+

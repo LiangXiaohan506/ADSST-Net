@@ -1,0 +1,184 @@
+================================================================================
+实验配置: CAUEEG_Dementia_1s_00_EO_Aug-MedGNN-NCvsMCI-noAugmentation
+================================================================================
+
+ITR 1 结果:
+	Sample-level results:
+		Accuracy:	60.67%
+		Precision:	61.15%
+		Recall:	60.91%
+		F1:	60.53%
+		k-score:	21.70%
+		AUROC:	65.85%
+		AUPRC:	64.43%
+		Confusion Matrix (Count):
+			6783	6005
+			3761	8283
+		Confusion Matrix (Percentage):
+			53.04%	46.96%
+			31.23%	68.77%
+	Subject-level results:
+		Accuracy:	68.21%
+		Precision:	68.66%
+		Recall:	68.46%
+		F1:	68.17%
+		k-score:	36.70%
+		AUROC:	68.46%
+		AUPRC:	60.38%
+		Confusion Matrix (Count):
+			56	34
+			21	62
+		Confusion Matrix (Percentage):
+			62.22%	37.78%
+			25.30%	74.70%
+
+ITR 2 结果:
+	Sample-level results:
+		Accuracy:	60.62%
+		Precision:	60.70%
+		Recall:	59.91%
+		F1:	59.52%
+		k-score:	20.07%
+		AUROC:	63.72%
+		AUPRC:	62.17%
+		Confusion Matrix (Count):
+			9476	3468
+			6209	5423
+		Confusion Matrix (Percentage):
+			73.21%	26.79%
+			53.38%	46.62%
+	Subject-level results:
+		Accuracy:	62.86%
+		Precision:	64.40%
+		Recall:	61.79%
+		F1:	60.59%
+		k-score:	24.04%
+		AUROC:	61.79%
+		AUPRC:	55.86%
+		Confusion Matrix (Count):
+			76	16
+			49	34
+		Confusion Matrix (Percentage):
+			82.61%	17.39%
+			59.04%	40.96%
+
+ITR 3 结果:
+	Sample-level results:
+		Accuracy:	59.43%
+		Precision:	59.56%
+		Recall:	59.62%
+		F1:	59.40%
+		k-score:	19.06%
+		AUROC:	64.06%
+		AUPRC:	63.39%
+		Confusion Matrix (Count):
+			8898	6620
+			5012	8142
+		Confusion Matrix (Percentage):
+			57.34%	42.66%
+			38.10%	61.90%
+	Subject-level results:
+		Accuracy:	65.14%
+		Precision:	65.13%
+		Recall:	65.16%
+		F1:	65.12%
+		k-score:	30.27%
+		AUROC:	65.16%
+		AUPRC:	57.96%
+		Confusion Matrix (Count):
+			59	32
+			29	55
+		Confusion Matrix (Percentage):
+			64.84%	35.16%
+			34.52%	65.48%
+
+ITR 4 结果:
+	Sample-level results:
+		Accuracy:	60.41%
+		Precision:	60.41%
+		Recall:	60.41%
+		F1:	60.41%
+		k-score:	20.82%
+		AUROC:	64.45%
+		AUPRC:	63.21%
+		Confusion Matrix (Count):
+			8246	5495
+			5350	8301
+		Confusion Matrix (Percentage):
+			60.01%	39.99%
+			39.19%	60.81%
+	Subject-level results:
+		Accuracy:	67.82%
+		Precision:	67.77%
+		Recall:	67.80%
+		F1:	67.78%
+		k-score:	35.56%
+		AUROC:	67.80%
+		AUPRC:	59.97%
+		Confusion Matrix (Count):
+			62	29
+			27	56
+		Confusion Matrix (Percentage):
+			68.13%	31.87%
+			32.53%	67.47%
+
+ITR 5 结果:
+	Sample-level results:
+		Accuracy:	61.55%
+		Precision:	61.26%
+		Recall:	61.30%
+		F1:	61.27%
+		k-score:	22.55%
+		AUROC:	65.69%
+		AUPRC:	64.44%
+		Confusion Matrix (Count):
+			9417	5315
+			5020	7128
+		Confusion Matrix (Percentage):
+			63.92%	36.08%
+			41.32%	58.68%
+	Subject-level results:
+		Accuracy:	65.34%
+		Precision:	65.40%
+		Recall:	64.98%
+		F1:	64.93%
+		k-score:	30.14%
+		AUROC:	64.98%
+		AUPRC:	58.03%
+		Confusion Matrix (Count):
+			67	25
+			36	48
+		Confusion Matrix (Percentage):
+			72.83%	27.17%
+			42.86%	57.14%
+
+================================================================================
+所有ITR的平均结果 (Mean ± Std):
+================================================================================
+
+Sample-level results:
+Test results --- Accuracy: 60.54 ± 0.68%, Precision: 60.62 ± 0.61%, Recall: 60.43 ± 0.62%, F1: 60.23 ± 0.69%, k-score: 20.84 ± 1.22%, AUROC: 64.75 ± 0.86%, AUPRC: 63.53 ± 0.85%
+	Confusion Matrix (Mean Count):
+		8564.00	5380.60
+		5070.40	7455.40
+	Confusion Matrix (Std Count):
+		994.38	1058.43
+		786.77	1105.37
+	Confusion Matrix (Mean Percentage):
+		61.41%	38.59%
+		40.48%	59.52%
+
+Subject-level results after majority voting:
+Test results --- Accuracy: 65.87 ± 1.96%, Precision: 66.27 ± 1.64%, Recall: 65.64 ± 2.37%, F1: 65.32 ± 2.71%, k-score: 31.34 ± 4.53%, AUROC: 65.64 ± 2.37%, AUPRC: 58.44 ± 1.62%
+	Confusion Matrix (Mean Count):
+		64.00	27.20
+		32.40	51.00
+	Confusion Matrix (Std Count):
+		7.01	6.37
+		9.58	9.59
+	Confusion Matrix (Mean Percentage):
+		70.18%	29.82%
+		38.85%	61.15%
+
+================================================================================
+
