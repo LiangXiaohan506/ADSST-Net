@@ -3,7 +3,7 @@
 Cloud-storage download link for the checkpoint files:
 
 ```text
-*********
+(https://drive.google.com/file/d/1455jL941Uf9mktoHBdjMZq5J32ZnwmbW/view?usp=drive_link)
 ```
 
 The link above is a placeholder and will be replaced with the actual download URL.
